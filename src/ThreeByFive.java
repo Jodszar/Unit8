@@ -9,7 +9,7 @@ public class ThreeByFive {
         System.out.println(nums[0][2]);
         System.out.println(nums[0][3]);
         System.out.println(nums[0][4]);
-        System.out.println(nums[1][0]); 
+        System.out.println(nums[1][0]);
         System.out.println(nums[1][1]);
         System.out.println(nums[1][2]);
         System.out.println(nums[1][3]);
@@ -26,6 +26,8 @@ public class ThreeByFive {
         nums[2][3] = -3;
 
 //make a statement to create a blank line here
+        System.out.println();
+
 
 
 // output all of the numbers again,
@@ -44,9 +46,6 @@ public class ThreeByFive {
         System.out.println(nums[2][1]);
         System.out.println(nums[2][3]);
         System.out.println(nums[2][4]);
-        nums[1][4] = -4;
-        nums[0][1] = -1;
-        nums[2][3] = -3;
 
     }
 }
