@@ -3,7 +3,6 @@
  * @auther Jodie Azar
  * @Since 4/6/2020
  */
-
 public class MagicSquare {
     private int[][] grid;
 
@@ -30,7 +29,6 @@ public class MagicSquare {
      * @param col
      * @return sum of column
      */
-
     public int colSum(int col) {
         // <<< Complete the code >>>
         int sum=0;
@@ -44,7 +42,6 @@ public class MagicSquare {
      * This method is supposed to find the sum of the upward diagonal
      * @return sum of upward diagonal
      */
-
     public int upDiagSum() {
         // <<< Complete the code >>>
         int sum=0;
@@ -56,7 +53,6 @@ public class MagicSquare {
             col++;
         }
         return sum;
-
     }
 
     /**
